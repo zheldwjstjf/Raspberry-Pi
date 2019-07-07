@@ -1,2 +1,1 @@
-# Raspberry-Pi
-snippets about Raspberry Pi
+# Snippets about everything in computer science
