@@ -1,4 +1,6 @@
-[ Example ]
+"""
+[ 1. Example ]
+"""
 
 from selenium.webdriver.common.keys import Keys
 
@@ -8,7 +10,99 @@ element.send_keys(Keys.BACK_SPACE)
 
 
 
-[ Site-packages ]
+"""
+[ 2. send_keys ]
+
+Help on module selenium.webdriver.remote.webelement in selenium.webdriver.remote:
+
+NAME
+    selenium.webdriver.remote.webelement
+
+DESCRIPTION
+    # Licensed to the Software Freedom Conservancy (SFC) under one
+    # or more contributor license agreements.  See the NOTICE file
+    # distributed with this work for additional information
+    # regarding copyright ownership.  The SFC licenses this file
+    # to you under the Apache License, Version 2.0 (the
+    # "License"); you may not use this file except in compliance
+    # with the License.  You may obtain a copy of the License at
+    #
+    #   http://www.apache.org/licenses/LICENSE-2.0
+    #
+    # Unless required by applicable law or agreed to in writing,
+    # software distributed under the License is distributed on an
+    # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    # KIND, either express or implied.  See the License for the
+    # specific language governing permissions and limitations
+    # under the License.
+
+CLASSES
+    builtins.object
+        WebElement
+    
+    class WebElement(builtins.object)
+     |  WebElement(parent, id_, w3c=False)
+     |  
+     |  Represents a DOM element.
+     |  
+     |  Generally, all interesting operations that interact with a document will be
+     |  performed through this interface.
+     |  
+     |  All method calls will do a freshness check to ensure that the element
+     |  reference is still valid.  This essentially determines whether or not the
+     |  element is still attached to the DOM.  If this test fails, then an
+     |  ``StaleElementReferenceException`` is thrown, and all future calls to this
+     |  instance will fail.
+     |  
+     |  Methods defined here:
+     |  
+     |  __eq__(self, element)
+     |      Return self==value.
+     |  
+     |  __hash__(self)
+     |      Return hash(self).
+     |  
+     |  __init__(self, parent, id_, w3c=False)
+     |      Initialize self.  See help(type(self)) for accurate signature.
+     |  
+     |  __ne__(self, element)
+     |      Return self!=value.
+     |  
+     |  __repr__(self)
+     |      Return repr(self).
+     |
+
+     ...
+        
+     |  send_keys(self, *value)
+     |      Simulates typing into the element.
+     |      
+     |      :Args:
+     |          - value - A string for typing, or setting form fields.  For setting
+     |            file inputs, this could be a local file path.
+     |      
+     |      Use this to send simple key events or to fill out form fields::
+     |      
+     |          form_textfield = driver.find_element_by_name('username')
+     |          form_textfield.send_keys("admin")
+     |      
+     |      This can also be used to set file inputs.
+     |      
+     |      ::
+     |      
+     |          file_input = driver.find_element_by_name('profilePic')
+     |          file_input.send_keys("path/to/profilepic.gif")
+     |          # Generally it's better to wrap the file path in one of the methods
+     |          # in os.path to return the actual path to support cross OS testing.
+     |          # file_input.send_keys(os.path.abspath("path/to/profilepic.gif"))
+
+     ...
+        
+
+
+
+
+[ 3. Keys ]
 
 (base) jack (master) python
 $ python
@@ -174,3 +268,5 @@ DATA
 
 FILE
     /anaconda3/lib/python3.7/site-packages/selenium/webdriver/common/keys.py
+
+"""
