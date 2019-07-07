@@ -1,0 +1,14 @@
+[ OSX ]
+
+1. Backup
+
+`diskutil list`
+
+`sudo dd if=/dev/disk3 of=~/RaspberryPi_SDCardBackup.dmg`
+
+
+2. Restoring
+
+`diskutil unmountDisk /dev/disk3`
+
+`sudo dd if=~/SDCardBackup.dmg of=/dev/disk3`
