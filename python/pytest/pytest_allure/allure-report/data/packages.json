@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "simple_code",
+    "children" : [ {
+      "name" : "test_1_task",
+      "uid" : "20bef6cfa70d2f0e",
+      "parentUid" : "2211990f34d5d5734314874b0b5becec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617920224965,
+        "stop" : 1617920224965,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_2_task",
+      "uid" : "2c1caebfaa67063",
+      "parentUid" : "2211990f34d5d5734314874b0b5becec",
+      "status" : "failed",
+      "time" : {
+        "start" : 1617920224968,
+        "stop" : 1617920224969,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_3_task",
+      "uid" : "a409f1824d98dd63",
+      "parentUid" : "2211990f34d5d5734314874b0b5becec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617920225028,
+        "stop" : 1617920225028,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2211990f34d5d5734314874b0b5becec"
+  } ]
+}

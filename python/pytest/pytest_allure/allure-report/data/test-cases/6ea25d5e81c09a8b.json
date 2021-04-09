@@ -1,0 +1,48 @@
+{
+  "uid" : "6ea25d5e81c09a8b",
+  "name" : "test_1_task",
+  "fullName" : "simple_code#test_1_task",
+  "historyId" : "04a56babcf09b479cd21bc5801ebc02d",
+  "time" : {
+    "start" : 1617918786659,
+    "stop" : 1617918786659,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "simple_code"
+  }, {
+    "name" : "host",
+    "value" : "Apple-no-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "62372-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "simple_code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ea25d5e81c09a8b.json",
+  "parameterValues" : [ ]
+}

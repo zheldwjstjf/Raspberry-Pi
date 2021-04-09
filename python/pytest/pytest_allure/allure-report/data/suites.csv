@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 09 07:17:05 JST 2021","Fri Apr 09 07:17:05 JST 2021","0","","simple_code","","","","test_3_task",""
+"failed","Fri Apr 09 07:17:04 JST 2021","Fri Apr 09 07:17:04 JST 2021","1","","simple_code","","","","test_2_task",""
+"passed","Fri Apr 09 07:17:04 JST 2021","Fri Apr 09 07:17:04 JST 2021","0","","simple_code","","","","test_1_task",""

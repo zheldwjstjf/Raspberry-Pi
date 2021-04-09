@@ -1,0 +1,50 @@
+{
+  "uid" : "c1bb4824d2b709d5",
+  "name" : "test_2_task",
+  "fullName" : "simple_code#test_2_task",
+  "historyId" : "3b39a1db5c3b41b9a88749d2ad8d364d",
+  "time" : {
+    "start" : 1617918816957,
+    "stop" : 1617918816958,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "def test_2_task():\n>       assert False\nE       assert False\n\nsimple_code.py:6: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "simple_code"
+  }, {
+    "name" : "host",
+    "value" : "Apple-no-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "62698-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "simple_code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1bb4824d2b709d5.json",
+  "parameterValues" : [ ]
+}
