@@ -1,0 +1,202 @@
+{
+  "uid" : "2c1caebfaa67063",
+  "name" : "test_2_task",
+  "fullName" : "simple_code#test_2_task",
+  "historyId" : "3b39a1db5c3b41b9a88749d2ad8d364d",
+  "time" : {
+    "start" : 1617920224968,
+    "stop" : 1617920224969,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "def test_2_task():\n>       assert False\nE       assert False\n\nsimple_code.py:6: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "simple_code"
+  }, {
+    "name" : "host",
+    "value" : "Apple-no-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "73987-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "simple_code"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "86cbc88bda397aba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617919122200,
+        "stop" : 1617919122200,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f933ca5ad21f91b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617919101912,
+        "stop" : 1617919101912,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bf0b6971faa69309",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617919081069,
+        "stop" : 1617919081069,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2cde79ba8668d316",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918975066,
+        "stop" : 1617918975066,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c1bb4824d2b709d5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918816957,
+        "stop" : 1617918816958,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c27b08f0b6ac80a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918803218,
+        "stop" : 1617918803218,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d5c4099efcb0772f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918786662,
+        "stop" : 1617918786662,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df9c524b75ec6716",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918551347,
+        "stop" : 1617918551348,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a1f2bb6438bd1465",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918399063,
+        "stop" : 1617918399063,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ce8b1126eb174c0f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False",
+      "time" : {
+        "start" : 1617918321951,
+        "stop" : 1617918321951,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 6,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "efcd28e488c90dfa",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1617919122200,
+          "stop" : 1617919122200,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c0bc54b4a5fbac83",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1617919101912,
+          "stop" : 1617919101912,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4de46190b659176a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1617919081069,
+          "stop" : 1617919081069,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "d17a09ce37874a05",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1617918816957,
+          "stop" : 1617918816958,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "464a615cdff97316",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False",
+        "time" : {
+          "start" : 1617918551347,
+          "stop" : 1617918551348,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2c1caebfaa67063.json",
+  "parameterValues" : [ ]
+}
