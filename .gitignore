@@ -1,2 +1,4 @@
 
 *.pyc
+.DS_Store
+authentication/.DS_Store
