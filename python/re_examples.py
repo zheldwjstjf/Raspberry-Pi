@@ -3,7 +3,7 @@ import re
 
 def delete_all_strings_after_specific_symbols():
     text = """
-    <span aaaaaaaaaaaaaaaaaaaaaaaaa>
+    <span aaaaaaaaaaaaaaaaaaaaaaaaaaaaa>
     bbbbbbbbbbbbbbbb
     </sapn cccccccccccccccccccccccc>
     """
